@@ -1,0 +1,25 @@
+<?php
+session_start();
+
+require_once "connection.php";
+
+if(!isset($_SESSION['username'])) {
+	echo "<h1>You must log in first</h1>";
+	header("refresh:2; url=login.html");
+}
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+
+	<h1><?php echo '' ?></h1>
+	<h1>Search a book</h1>
+
+
+</body>
+</html>

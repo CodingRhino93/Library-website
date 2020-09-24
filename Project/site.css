@@ -1,0 +1,506 @@
+#registration_page {
+	background-image: url("background03.jpg");
+	background-size: contain;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: fixed;
+}
+
+#home_page {
+	background-image: url("background04.jpg");
+	background-size: contain;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: fixed;
+}
+
+#main {
+	width: 70%;
+	margin: auto;
+	min-height: 90vh;
+	background: rgba(60%, 50%, 50%, .3);
+}
+
+#main02 {
+	width: 70%;
+	margin: auto;
+	min-height: 90vh;
+	background: rgba(60%, 50%, 50%, .3);
+}
+
+#table_div {
+	background-color: black;
+
+}
+
+#return_link {
+	position: absolute;
+	background-color: black;
+	margin-left: 60.5vh;
+	margin-top: 5vh;
+	font-weight: bold;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 3vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+#return_link:hover {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+  	border-radius: 15%;
+}
+
+#return_link2 {
+	position: absolute;
+	background-color: black;
+	margin-left: 90vh;
+	margin-top: 5vh;
+	font-weight: bold;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 3vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+#return_link2:hover {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+  	border-radius: 15%;
+}
+
+
+.next_page_button {
+	position: absolute;
+	background-color: black;
+	margin-left: 141vh;
+	margin-top: -0.7vh;
+	font-weight: bold;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 3vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.next_page_button:hover {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+  	border-radius: 15%;
+}
+
+.previous_page_button {
+	position: absolute;
+	background-color: black;
+	margin-left: 59vh;
+	margin-top: -0.7vh;
+	font-weight: bold;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 3vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.previous_page_button:hover {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+  	border-radius: 15%;
+}
+
+#header {
+	position: absolute;
+	margin-left: 88%;
+	margin-top: -2%;
+}
+
+#header2 {
+	position: absolute;
+	margin-left: 86%;
+	margin-top: -2%;
+	background: black;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+}
+
+#header, #header2 input {
+	text-decoration: none;
+	color: black;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 3vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+#header2 input:hover {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+  	border-radius: 15%;
+}
+
+#logout_button {
+	margin-left: 25%;
+}
+
+#my_reservations_button {
+	width: 100%;
+}
+
+#header, #header2 p {
+	font-size: 4vh;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#footer {
+	position: relative;
+	bottom: 0;
+	text-align: center;
+}
+
+#footer p {
+	font-size: 2vh;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-top: 10%;
+}
+
+#br01 {
+	margin-right: 3.2%;
+}
+
+#br02 {
+	margin-right: 3%;
+}
+
+#br03 {
+	margin-right: 1.5%;
+}
+
+#br01_no_div {
+	margin-right: 3.2%;
+}
+
+#br02_no_div {
+	margin-right: 3%;
+}
+
+#br03_no_div {
+	margin-right: 2.2%;
+}
+
+.print {
+	font-size: 5vh;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding-top: 6%;
+}
+
+#spacer {
+	width: 100%;
+	height: 5vh;
+	margin-bottom: 30vh;
+}
+
+#home_page_spacer {
+	width: 100%;
+	height: 5vh;
+	margin-bottom: 45vh;
+}
+
+#main h2 {
+	font-weight: bold;
+	margin-left: 2vh;
+	color: white;
+	font-size: 8vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main02 h2 {
+	font-weight: bold;
+	margin-left: 2vh;
+	color: white;
+	font-size: 8vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main h3 {
+	font-weight: bold;
+	margin-left: 2vh;
+	color: white;
+	font-size: 6vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main02 h3 {
+	font-weight: bold;
+	margin-left: 2vh;
+	color: white;
+	font-size: 6vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main h4 {
+	font-weight: bold;
+	margin-left: 2vh;
+	color: white;
+	font-size: 4vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main02 h4 {
+	font-weight: bold;
+	margin-left: 2vh;
+	color: white;
+	font-size: 4vh;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+#main span {
+	position: absolute;
+	margin-top: -1%;
+	font-size: 3vh;
+	font-weight: bold;
+	margin-left: 48vh;
+	color: white;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main02 span {
+	position: absolute;
+	margin-top: -1%;
+	font-size: 3vh;
+	font-weight: bold;
+	margin-left: 48vh;
+	color: white;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main select {
+	text-align: center;
+	margin-left: 60vh;
+	position: relative;
+	display: block;
+	width: 30vh;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+  	border-radius: 15%;
+}
+
+#main02 select {
+	text-align: center;
+	margin-left: 60vh;
+	position: relative;
+	display: block;
+	width: 30vh;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+  	border-radius: 15%;
+}
+
+#printTable {
+	text-align: right;
+	font-color: white;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-left: 28%;
+	margin-top: 10%;
+	opacity: 0.7;
+  	filter: alpha(opacity=80);
+}
+
+#printTable input {
+	text-align: center;
+	position: relative;
+	display: block;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 100%;
+  	filter: alpha(opacity=100%);
+  	border-radius: 15%;
+}
+
+#printTable input:hover {
+	color: white;
+	background-color: black;
+	opacity: 0.9;
+  	filter: alpha(opacity=90);
+}
+
+
+
+#main input {
+	text-align: center;
+	margin-left: 60vh;
+	position: relative;
+	display: block;
+	width: 30vh;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+  	border-radius: 15%;
+}
+
+#main02 input {
+	text-align: center;
+	margin-left: 60vh;
+	position: relative;
+	display: block;
+	width: 30vh;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.8;
+  	filter: alpha(opacity=80);
+  	border-radius: 15%;
+}
+
+#main form label {
+	font-size: 3vh;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin-left: 64vh;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main02 form label {
+	font-size: 3vh;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin-left: 64vh;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.half_screen_div01 {
+	width: 50%;
+	float: right;
+	min-height: 32vh;
+	text-align: center;
+	padding-top: 10%;
+	background-image: url("background02.jpg");
+	background-size: 110%;
+	background-repeat: no-repeat;
+}
+
+.half_screen_div02 {
+	width: 50%;
+	float: left;
+	min-height: 32vh;
+	text-align: center;
+	padding-top: 10%;
+	background-image: url("background01.jpg");
+	background-size: 110%;
+	background-repeat: no-repeat;
+}
+
+#registation_link {
+	font-size: 10vh;
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#registation_link:hover {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+  	border-radius: 15%;
+}
+
+#login_link {
+	font-size: 10vh;
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#login_link:hover {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: black;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+  	border-radius: 15%;
+}
+
+#registration_h1 {
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
